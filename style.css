@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    display: flex;
+    background-color: #F1F1F1;
+}
+
+.container .part1{
+    width: 32%;
+    margin: .5rem;
+    margin-right: 1rem;
+    padding: .8rem;
+    position: relative;
+    border-radius: 2px;
+    box-shadow: 0px 0px 10px gray;
+    background-color: white;
+    padding-bottom: 2rem;
+}
+.part1-div1{
+
+    padding: 1rem;
+    position: relative;
+}
+.part1-div1 h2{
+    position: absolute;
+    bottom: 1.5rem;
+    color: white;
+    background-color: black;
+    padding: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+   
+}
+.pro{
+    
+    width: 90%;
+    margin: auto;
+    margin-left: 2rem;
+    border-radius: 2rem;
+    background-color:#F1F1F1;
+    text-align: center;
+    padding: .1rem;
+}
+.proc{
+    color: white;
+    width: 90%;
+    background-color: #009688;
+    border-radius:2rem ;
+}
+.proc1{
+    color: white;
+    width: 80%;
+    background-color: #009688;
+    border-radius:2rem ;
+}
+.proc2{
+    color: white;
+    width: 75%;
+    background-color: #009688;
+    border-radius:2rem ;
+}
+.proc3{
+    color: white;
+    width: 60%;
+    background-color: #009688;
+    border-radius:2rem ;
+}
+.proc0{
+    color: white;
+    width: 100%;
+    background-color: #009688;
+    border-radius:2rem ;
+}
+.indent p{
+    margin: 1rem 0rem 1rem 0.4rem;
+}
+i{
+    color: #009688;
+    font-size: 1.1rem;
+}
+span{
+    margin-left:.7rem ;
+}
+hr{
+    width: 90%;
+    margin: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.skills span{
+    margin-left: 0.5rem;
+}
+.skills h2 i{
+    margin-left: .4rem;
+    font-size: 1.2rem;
+}
+.skills p{
+    margin: 1rem;
+}
+.skill .pro{
+    margin-left: .4rem;
+}
+
+.container .part2{
+    width: 68%;
+    margin: .5rem;
+    margin-top: .1rem;
+    margin-left: -.6rem;
+    padding: .5rem;
+}
+
+.part2-div1{
+    width: 100%;
+    border-radius: 2px;
+    box-shadow: 0px 0px 10px gray;
+    background-color: white;
+}
+.part2-div1 p{
+    padding: .5rem;
+    padding-left: 3rem;
+    margin-top: 0;
+}
+.part2-div1 h1{
+    padding: 1rem;
+    padding-left: 1.5rem;
+}
+.part2-div1 h1 i{
+    font-size: 1.8rem;
+    padding: 2px;
+}
+.part2-div1 h3{
+    padding: .5rem;
+    padding-left: 3rem;
+    margin: 0;
+}
+section:last-child{
+    padding-bottom: 1rem;
+}
+
+.links{
+    margin-top: 1.5rem;
+}
+.plinks{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-left: 3rem;
+    padding: 1rem;
+    text-align: left;
+}
+.plinks section{
+    box-shadow: 0px 0px 10px gray;
+    width: 13rem;
+    height: 15rem; 
+    border-radius: .2rem;  
+}
+.plinks section h3{
+    padding-left: 1rem;
+}
+.plinks section p{
+    padding-left: 1rem;
+}
+.plinks section p a{
+    font-size: 1.5rem;
+}
+.plinks section:last-child{
+    padding-bottom: 0rem;
+}
+.plinks section img{
+    width: 100%;
+    height: 50%;
+}
+.footer{
+    padding: 1rem;
+    background-color: #009688;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1.5rem;
+}
+.footer span{
+    color: white;
+    font-size: 1.2rem;
+}
+.footer i{
+    color: white;
+}
+@media screen and (max-width:860px) {
+    .container{
+        flex-direction: column;
+        margin: 1rem;
+    }
+    .container .part1{
+        width: 94%;
+        margin-left: 0;
+    }
+    .container .part2{
+        width: 100%;
+    }
+    .part1{
+        margin-right: 2rem;
+    }
+    
+}
+@media screen and (max-width:360px) {
+    .plinks section{
+        margin-left: -3rem;
+    }
+}
